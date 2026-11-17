@@ -6,7 +6,7 @@ app.use(cors());
 app.use(express.json());
 
 // Твой токен от BotFather
-const BOT_TOKEN = '8936513723:AAFXirWcjXjvEURup9z5TmorLwI177DsYOo';
+const BOT_TOKEN = '8725627105:AAFgdBu8u-AYlHRaGtFLUP12uvqGDJRsuco';
 
 // Базы данных в оперативной памяти (очищаются при перезапуске сервера)
 const userChats = new Map();  // Хранит: cleanUsername -> { chatId, firstName, lastName }
